@@ -1,0 +1,53 @@
+{
+  "name": "procedural-asteroid",
+  "version": "1.0.0",
+  "description": "Procedural asteroid made with Three.JS and Perlin Noise",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "deploy": "webpack build && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianw27/procedural-asteroid.git"
+  },
+  "keywords": [
+    "procedural",
+    "generation",
+    "ateroid",
+    "three.js",
+    "perlin noise",
+    "noise"
+  ],
+  "author": "Damian Wilenski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damianw27/procedural-asteroid/issues"
+  },
+  "homepage": "https://damianw27.github.io/procedural-asteroid/",
+  "dependencies": {
+    "@types/three": "^0.144.0",
+    "dat.gui": "^0.7.9",
+    "gh-pages": "^4.0.0",
+    "three": "^0.145.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.7",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "8.22.0",
+    "eslint-config-alloy": "^4.7.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.7.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
